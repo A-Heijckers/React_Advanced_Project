@@ -1,0 +1,16 @@
+nav {
+  margin-left: 4em;
+  margin-top: 1em;
+  color: rgb(0, 199, 0);
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+}
+
+nav ul li {
+  padding: 0 20px;
+}
