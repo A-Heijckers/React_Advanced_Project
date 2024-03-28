@@ -64,19 +64,6 @@
       "location": "Shavasana Yoga School",
       "startTime": "2023-03-09T06:00:00.000Z",
       "endTime": "2023-03-09T07:00:00.000Z"
-    },
-    {
-      "title": "Henk",
-      "description": "henk around with henk",
-      "image": "henk.com",
-      "startTime": "1986-01-28T00:12",
-      "endTime": "1988-01-29T15:02",
-      "location": "henks place",
-      "categoryIds": [
-        1
-      ],
-      "createdBy": 2,
-      "id": 5
     }
   ],
   "categories": [
