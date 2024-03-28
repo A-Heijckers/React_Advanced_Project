@@ -17,6 +17,8 @@ import { useToast } from "@chakra-ui/react";
 // Send request to edit event
 export const action = async ({ request, params }) => {
   const formData = Object.fromEntries(await request.formData());
+  formData.categoryIds = [parseInt(formData.categoryIds, 10)];
+  formData.createdBy = Number(formData.createdBy);
   const response = await fetch(
     `http://localhost:3000/events/${params.eventId}`,
     {
