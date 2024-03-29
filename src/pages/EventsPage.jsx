@@ -213,11 +213,8 @@ export const EventsPage = () => {
                         bg={"blue"}
                       >
                         Starts @ {event.startTime.split("T")[1].slice(0, 5)}{" "}
-                        {/*  "2023-03-10T17:00" */}
-                        {/* .split("T")[1].slice(0, 5)} */}
                       </Badge>{" "}
-                      {/* Format both Date objects to ISO format (yyyy-MM-dd) */}
-                      {/* OR: {new Date(event.startTime).toISOString().slice(11,16)} */}
+                      {/* Format both Date objects */}
                       <Badge
                         borderRadius="md"
                         px={3}
@@ -227,8 +224,7 @@ export const EventsPage = () => {
                       >
                         Ends @ {event.endTime.split("T")[1].slice(0, 5)}
                       </Badge>{" "}
-                      {/* Format both Date objects to ISO format (yyyy-MM-dd) */}
-                      {/*OR: {new Date(event.endTime).toISOString().slice(11,16)} */}
+                      {/* Format both Date objects  */}
                       <Link to={`/event/${event.id}`}>
                         <Text
                           borderRadius="md"
@@ -258,21 +254,7 @@ export const EventsPage = () => {
                       mt={8}
                       gap={6}
                     >
-                      {/* <Button
-                        variant="solid"
-                        bgColor="orange.300"
-                        color="white"
-                        size="md"
-                        boxShadow="xl"
-                        // onClick={openEvent}
-                      >
-                        Check: {event.title}
-                      </Button> */}
-                      {/* <Button
-                        variant="ghost"
-                        color="blue.400"
-                        boxShadow="xl"
-                      ></Button> */}
+                  
                     </Flex>
                   </CardBody>
                 </Link>
