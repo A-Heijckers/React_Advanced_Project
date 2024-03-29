@@ -8,9 +8,6 @@ import {
   Badge,
 } from "@chakra-ui/react";
 import { useLoaderData } from "react-router-dom";
-// import { UserCard } from "../components/UI/UserCard";
-// import { CategoryCard } from "../components/UI/CategoryCard";
-// import { DeleteEvent } from "../components/UI/DeleteEvent";
 import { EditEvent } from "../components/UI/EditEvent";
 import { DeleteEvent } from "../components/UI/DeleteEvent";
 
