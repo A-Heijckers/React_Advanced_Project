@@ -53,7 +53,7 @@ export const DeleteEvent = ({ event }) => {
       default:
         showToast(
          
-          `Something happened! Not sure what "${status}" means though...`,
+          `Something happened!"${status}"`,
          
         );
     }
